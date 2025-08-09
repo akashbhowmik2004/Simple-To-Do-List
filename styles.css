@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+}
+input{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:20px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.inputContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputContainer > button{
+    margin-left: 10px;
+}
+
+.todoList{
+    margin: 10%;
+}
+.todoList p {
+    font-size: 20px;
+    margin: 5px 0;
+    margin-top:1%;
+}
+.todoContent{
+    margin-top: 2%;
+  display: flex;
+  justify-content: space-between; /* item at start and end */
+  align-items: center; /* vertically center them */
+  background: #ccc;
+  border-radius: 8px;
+  padding: 10px 50px;
+}
+.todoContent > button{
+  margin-left: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #ccc;
+}
+.todoContent > button > i{
+    font-size: 15px;
+}
+.todoContent > p{
+    margin-right: 20px;
+}
+.todoButton{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
